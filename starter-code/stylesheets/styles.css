@@ -1,0 +1,110 @@
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.nav-header {
+    display: flex;
+    height: 85px;
+
+}
+
+.nav-header li {
+    list-style: none;
+    
+}
+
+.nav-links li a {
+    color: black;
+}
+
+.nav-links li a:hover {
+    color: red;
+    text-decoration: none;
+
+}
+
+#titleLogo {
+    font-size: 2em;
+    /* font-weight: 800; */
+
+}
+    
+#first-link {
+
+}
+
+.main-image-div {
+    background-image: url('../img/slider-1.jpg');
+    height: 690px;
+    background-size: cover; 
+    filter: grayscale(100%);
+    z-index: 5;
+}
+
+.grey-thing {
+    background-image: url('../img/overlay.png');
+    height: 690px;
+    position: absolute;
+    left: 0;
+    top: 85px;
+
+}
+
+.text-on-main-image {
+    position: relative;
+    top: 100px;
+    width: 800px;
+    color: white;
+    text-align: center;
+    
+}
+
+.text-on-main-image h1 {
+    font-size: 40px;
+
+}
+
+.text-on-main-image p {
+    font-size: 18px;
+    
+}
+
+.text-on-main-image button {
+    padding: 10px 35px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(5,5,5,0);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.mid-red-banner {
+  height: 390px;
+  background-color: #ed564b;
+  padding: 40px 0x;
+  color: white;
+}
+
+.red-background {
+  background-color: #ed564b;
+  text-align: center;   
+}
+
+.glyphicon {
+    font-size: 25px;
+    color: white;
+    border: 5px solid white;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.lat-projects {
+    padding-top: 50px 0 30px 0;
+}
+
+.center-text {
+    text-align: center;
+}
